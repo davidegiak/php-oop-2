@@ -8,13 +8,13 @@ include __DIR__ . "/models/game.php";
 $dogCategory = new Category("cane", "blablablabla");
 $catCategory = new Category("gatto", "blablablablabla");
 
-$product = new Product("guinzaglio", 20, "./cuccia", $dogCategory);
+$product = new Product("guinzaglio", 20, "./img/guinzaglio.jpg", $dogCategory);
 
-$foodProduct = new Food("crocchette", 5.50, "/crocchette.png", $catCategory, "2Kg");
+$foodProduct = new Food("crocchette", 5.50, "./img/crocchette.jpg", $catCategory, "2Kg");
 
-$shelterProduct = new Shelter("cuccia LUX", 50, "", $dogCategory, "XL");
+$shelterProduct = new Shelter("cuccia LUX", 50, "./img/cuccia.jpg", $dogCategory, "XL");
 
-$gameProduct = new Game("pallina", 12, "", $catCategory, "spugna");
+$gameProduct = new Game("pallina", 12, "./img/pallina.png", $catCategory, "spugna");
 
 $products = [
     $product,

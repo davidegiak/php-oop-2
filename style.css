@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #222;
+    font-family: sans-serif;
+    color: white;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15rem;
+    gap: 3rem;
+    padding: 1rem;
+    flex-grow: inherit;
+}
+.card{
+    width: calc(100% / 3 - 4rem);
+    background-color: #107AB0;
+    padding: 0.5rem;
+}
