@@ -12,7 +12,7 @@ include __DIR__ . "/data.php"
 <body>
     <pre>
         <?php echo "<pre>". print_r($product) . "</pre>" ?>
-        <?php echo "<pre>". print_r($productOne) . "</pre>" ?>
+        <?php echo "<pre>". print_r($foodProduct) . "</pre>" ?>
     </pre>
 </body>
 </html>
