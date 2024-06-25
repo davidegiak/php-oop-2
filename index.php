@@ -11,7 +11,8 @@ include __DIR__ . "/data.php"
 </head>
 <body>
     <pre>
-        <?php print_r($product) ?>
+        <?php echo "<pre>". print_r($product) . "</pre>" ?>
+        <?php echo "<pre>". print_r($productOne) . "</pre>" ?>
     </pre>
 </body>
 </html>
